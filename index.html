@@ -1,21 +1,50 @@
 <!doctype html>
+<!--
+This is workspace for CSS learning
+-->
 <html>
   <head>
     <title>Life of a Democracy Man - Welcome</title>
     <meta charset="utf-8">
   </head>
+  <style>
+  a {
+    color:navy;
+    text-decoration: none;
+  }
+  h1 {
+    font-size:40px;
+    font-style:oblique;
+    text-align:center;
+    text-shadow: 2px 1px grey;
+  }
+  h2 {
+    font-size:30px;
+    text-align:center;
+    font-style:strong;
+  }
+  </style>
+  <!--
+  {}=this is called a "selector" in CSS. What goes in a selector (above it's color:navy) is called a "declaration". 'Color' is a "property". 'Navy' is a "value".
+  You can utilize selector as a tag, or inscript 'style' within html tag as a property.
+  -->
   <body>
-    <h1><a href="index.html">Life of a Democracy Man (데모크라시맨의 삶)</a></h1><br>
-      <p><i>Hacked in <a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="html5 specification">HTML</a> by Clint Yoo</i></p>
-      <p>
+    <h1><a href="index.html" style="color:black">Life of a Democracy Man (데모크라시맨의 삶)</a>
+    </h1>
+    <!--
+    And below is why CSS is more efficient in the above script.
+    <h1><a href="index.html"><font color="orange">Life of a Democracy Man (데모크라시맨의 삶)</font></a>
+    </h1><br>
+    -->
+      <p style="text-align:center"><i>Hacked in <a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="html5 specification">HTML</a> by Clint Yoo</i>
+      </p>
+      <p style="text-align:center">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/L1TWLSSBHT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </p>
-
+      <h2>Democracy</h2>
+      <p>A system of government by the whole population or all the eligible members of a state, typically through elected representatives.</p>
       <ol>
         <li><a href="1.html">Representative Democracy</a></li>
         <li><a href="2.html">Direct Democracy</a></li>
-        <li><a href="3.html">Clint's Democracy</a></li>
+        <li><a href="3.html" style="color:red;tedecoration:underline;">Clint's Democracy</a></li>
       </ol>
-
-      <h2>Democracy</h2>
-      <p>A system of government by the whole population or all the eligible members of a state, typically through elected representatives.</p>
